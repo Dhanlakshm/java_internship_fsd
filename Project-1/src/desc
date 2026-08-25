@@ -1,0 +1,51 @@
+Servlet --> providing connectivity to frontend
+front react UI
+
+App --> service --> DAO --> database
+
+servlet  --->
+
+react UI(GET, POST, PUT, DELETE) ---> servlet --> service(processed) ---> DAO---> database
+
+GET --> read data
+POST --> create data/ adding new data
+PUT --> update data
+DELETE --> delete data
+
+REST API ----> Representational State Transfer
+rule
+1. HTTP methods define the operation --> get, post, put, del
+2. URL identifies the resourse
+    /api/user
+    /api/product
+    /apt/user/{id}
+    /api/product/121
+
+    user serlet class ---> /api/user/*
+        adduser --> /api/user/id....
+        update ---> /api/user/1
+        delete --> /api/user/121
+    product servlet class ---> /api/product/*
+         adduser --> /api/product/id....
+        update ---> /api/product/1
+            delete --> /api/product/121
+
+3. Data is exchanged in the form of json
+{
+    ""
+}
+4. HTTP status code --> tell the result
+200 --> success
+201 --> created suucesfully
+400 --> Bad request
+404 --> data not found
+500 --> server error
+
+
+
+//servlet
+---doGet(), doPOST(), doPut(), doDelete() --Httpservlet class --> GenericServlet class
+
+
+
+

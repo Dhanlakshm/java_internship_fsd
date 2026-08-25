@@ -8,5 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mysql-connector-j-26.7.0" level="project" />
+    <orderEntry type="library" name="json-20240303" level="project" />
+    <orderEntry type="library" name="javax.servlet-api-4.0.1" level="project" />
+    <orderEntry type="library" name="javax.servlet-api-4.0.2" level="project" />
   </component>
 </module>
