@@ -6,7 +6,7 @@ class Footer extends Component
         return(
             <>
             <h3>from Footer comp </h3>
-            <h4>{this.props.see}</h4>
+            <h4>{this.props.name}</h4>
             </>
         );
     };
